@@ -11,7 +11,7 @@ int main(void)
 	char mystr[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; i++)
-		putchar("\n", mystr[i]);
+	for (i = 0; i <= 26; i++)
+		putchar( mystr[i]);
 	return (0);
 }
