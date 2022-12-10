@@ -15,7 +15,6 @@ int main(void)
 	{
 		j++;
 		l++;
-		k++;
 		n++;
 		for (; j <= 8; j++)
 		{
