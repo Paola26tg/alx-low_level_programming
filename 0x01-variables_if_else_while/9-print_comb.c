@@ -14,12 +14,13 @@ int main(void)
 	{
 		if (i == 9)
 		{
-			putchar(i + '0', '\n');
+			putchar(i + '0');
+			putchar('\n');
 		} else
 		{
 			putchar(i + '0');
-			putchar(',');
-			putchar(' ');
+			putchar(',' + ' ');
+			
 		}
 	}
 	return (0);
