@@ -18,10 +18,14 @@ int main(void)
 
 	int m = 1;
 
+	int n = 1;
+
 	for (i = 0; i < 8; i++)
 	{
 		j++;
 		l++;
+		k++;
+		n++;
 		for (; j <= 8; j++)
 		{
 			k++;
@@ -40,6 +44,8 @@ int main(void)
 			k = m;
 		}
 		j = l;
+		k = n;
+		m = k;
 	}
 	putchar('\n');
 	return (0);
