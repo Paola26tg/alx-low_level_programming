@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point assign a random number to the variable n each time it is executed
+ * main - Entry point print the sign of assign number
  * Return: Always 0 (Success)
  *
  */
