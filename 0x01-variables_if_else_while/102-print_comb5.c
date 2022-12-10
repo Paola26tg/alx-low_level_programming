@@ -9,7 +9,7 @@ int main(void)
 {
 	int i, j = 0, k = 0;
 
-	int l = 1, m = 0, n = 1, o = 2, p = 0, r =0;
+	int l = 1, m = 0, o = 2, p = 0, r =0;
 
 	for (i = 0; i <= 9; i++)
 	{
