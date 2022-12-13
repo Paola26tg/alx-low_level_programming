@@ -7,8 +7,10 @@
  */
 int main(void)
 {
-	char Mystr [] = "_putchar";
+	char Mystr[] = "_putchar";
+
 	int i = 0;
+
 	while(i < 8)
 	{
 		putchar(Mystr[i]);
