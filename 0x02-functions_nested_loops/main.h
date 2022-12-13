@@ -1,7 +1,7 @@
-void print_alphabet(void)
-{
-	int i;
-
-	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
-}	
+/**
+ *
+ *
+ *
+ */
+int _putchar(const char *string);
+void print_alphabet(void);
