@@ -2,8 +2,9 @@
 /**
  * _abs - prints absolue value of integer
  *
+ * @i: number to compute absolue value
  */
-int _abs(int)
+int _abs(int i)
 {
 	int i;
 
