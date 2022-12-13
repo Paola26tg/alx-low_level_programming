@@ -2,6 +2,7 @@
 /**
  * _abs - prints absolue value of integer
  *
+ * Return: integer if is positive and -integer if it is negative
  * @i: number to compute absolue value
  */
 int _abs(int i)
@@ -10,4 +11,4 @@ int _abs(int i)
 		return (-i);
 	else
 		return (i);
-}	
+}
