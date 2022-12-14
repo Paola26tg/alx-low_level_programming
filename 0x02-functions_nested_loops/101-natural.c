@@ -11,9 +11,9 @@ int main(void)
 	while (i < 1024)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
-		       j = j + i;
+			j = j + i;
 		i++;
 	}
-	printf("%d\n", j);	
+	printf("%d\n", j);
 	return (0);
 }
