@@ -1,4 +1,3 @@
-#include "main.c"
 #include <stdio.h>
 /**
  * main - Prints 50 Fibonacci numbers
