@@ -9,7 +9,7 @@ int main(void)
 	int i;
 	unsigned long j = 0, k = 1, m;
 
-	while (i <= 50)
+	while (i < 50)
 	{
 		m = j + k;
 		printf("%lu", m);
