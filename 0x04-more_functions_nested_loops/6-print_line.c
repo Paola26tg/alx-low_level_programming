@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_diagonal - draws a straigth line in the terminal
+ * print_line - draws a straigth line in the terminal
  * @n: number of line to draw
  */
-void print_diagonal(int n)
+void print_line(int n)
 {
 	int i;
 
