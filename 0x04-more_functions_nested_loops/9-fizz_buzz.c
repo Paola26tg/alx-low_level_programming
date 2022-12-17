@@ -3,7 +3,7 @@
 /**
  * main - prints numbers with fizz buzz test
  *
- * Return: 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
