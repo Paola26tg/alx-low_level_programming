@@ -17,5 +17,6 @@ int main(void)
 			max = num / i;
 		}
 	}
-	printf("%d",max);
+	printf("%d\n", max);
+	return (0);
 }
