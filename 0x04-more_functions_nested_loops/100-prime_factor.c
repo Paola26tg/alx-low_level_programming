@@ -2,7 +2,7 @@
 #include <math.h>
 /**
  * main - finds and prints the largest prime factor of the number
- * Return: Always 0
+ * Return: Always 0 (success)
  *
  */
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 			max = num / i;
 		}
 	}
-	printf("%d\n", max);
+	printf("%ld\n", max);
 	return (0);
 }
