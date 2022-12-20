@@ -22,7 +22,7 @@ int _atoi(char *s)
 		{
 			j = 1;
 			pi = (pi * 10) + (s[i] - '0');
-			c++;
+			i++;
 		}
 
 		if (j == 1)
