@@ -4,7 +4,7 @@
  * @a: integer
  * @n: integer
  */
-void print_array(int *a; int n)
+void print_array(int *a, int n)
 {
 	int j;
 
@@ -15,7 +15,6 @@ void print_array(int *a; int n)
 			printf("%d", a[j]);
 			printf(", ");
 		}
-		else
-			printf("%d\n");
 	}
+	printf("\n");
 }
