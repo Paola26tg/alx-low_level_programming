@@ -6,12 +6,20 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i, k;
+	int *p, i, aux, k;
 
-	for (k = 0; k < n / 2; k++)
+	p = a;
+
+	for (i = 1; i < n; i++)
 	{
-		i = s[k];
-		s[k] = s[n - k - 1];
-		s[n - k - 1] = i;
+		p++;
+	}
+
+	for (k = 0; k < i / 2; k++)
+	{
+		aux = a[k];
+		a[k] = *p;
+		*p = aux;
+		p--;
 	}
 }
