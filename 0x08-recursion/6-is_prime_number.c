@@ -7,7 +7,7 @@
  */
 int _prime(int num, int div)
 {
-	if (num % div == 0)
+	if (num % div == 0 || num < 2)
 		return (0);
 	else if (div == num)
 		return (1);
@@ -21,5 +21,5 @@ int _prime(int num, int div)
  */
 int is_prime_number(int n)
 {
-	return (_prime(n,2));
+	return (_prime(n, 2));
 }
