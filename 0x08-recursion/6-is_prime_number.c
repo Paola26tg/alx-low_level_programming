@@ -7,10 +7,10 @@
  */
 int _prime(int num, int div)
 {
-	if (num % div == 0 || num < 2)
-		return (0);
-	else if (div == num)
+	if (num == div)
 		return (1);
+	else if (num % div == 0 || num < 2)
+		return (0);
 	return (_prime(num, div + 1));
 }
 
