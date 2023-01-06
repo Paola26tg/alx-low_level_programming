@@ -11,7 +11,7 @@ int _prime(int num, int div)
 		return (0);
 	else if (div == num)
 		return (1);
-	return (_prime(div + 1, num));
+	return (_prime(num, div + 1));
 }
 
 /**
